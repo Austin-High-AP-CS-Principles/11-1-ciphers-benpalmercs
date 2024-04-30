@@ -13,3 +13,5 @@ def test_vigenere_encrypt():
 def test_vignere_decrypt():
   assert vigenere_decrypt("LXEOPVDMGMOEHA", "LEMON") == "ATTACK AT DAWN"
   assert vigenere_decrypt("TTIQMCGLQDYIU LMRUMF", "AMERICA") == "THE EAGLE HAS LANDED"
+
+test_caesar()
